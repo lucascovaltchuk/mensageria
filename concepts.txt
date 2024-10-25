@@ -1,0 +1,4 @@
+Fila: Faz o armazenamento das mensagens até que elas sejam processadas.
+Produtor: Faz o envio das mensagens para a fila.
+Consumidor: Faz o recebimento e processa as mensagens da fila.
+Assíncrono: Produtor e consumidor necessariamente não precisam estar sincronizados, logo pode acarretar em uma melhora da eficiência e escalabilidade.
